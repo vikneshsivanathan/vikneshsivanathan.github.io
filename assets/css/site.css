@@ -257,6 +257,12 @@ p {
 	display: none;
 }
 
+.wufoo .req {
+	text-align: center;
+	text-transform: uppercase;
+	color: #aaa;
+}
+
 .wufoo ul {
 	margin: 0;
 }

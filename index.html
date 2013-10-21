@@ -11,6 +11,7 @@
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/slider.js"></script>
 	<script src="assets/fan/fancybox.js"></script>
+	<script src="assets/js/wufoo.js"></script>
 	<script src="assets/js/site.js"></script>
 </head>
 
@@ -86,18 +87,19 @@
 			<div class="container">
 				<h2>Contact Us</h2>
 				<form id="form2" name="form2" class="wufoo" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://vikneshsivanathan.wufoo.com/forms/m4zu73j1945pz3/#public">
+					<p class="req">all fields are required</p>
 					<ul>
 						<li id="foli1" class="notranslate">
 							<label class="desc" id="title1" for="Field1">Name</label>
-							<input id="Field1" name="Field1" type="text" class="field text medium" value="" maxlength="255" placeholder="Name">
+							<input id="Field1" name="Field1" type="text" class="field text medium" value="" maxlength="255" placeholder="Name" required>
 						</li>
 						<li id="foli2" class="notranslate">
 							<label class="desc" id="title2" for="Field2">Email</label>
-							<input id="Field2" name="Field2" type="email" class="field text medium" value="" maxlength="255" placeholder="Email"> 
+							<input id="Field2" name="Field2" type="email" class="field text medium" value="" maxlength="255" placeholder="Email" required> 
 						</li>
 						<li id="foli3" class="notranslate">
 							<label class="desc" id="title3" for="Field3">Message</label>
-							<textarea id="Field3" name="Field3" class="field textarea medium" rows="10" cols="50" placeholder="Message"></textarea>
+							<textarea id="Field3" name="Field3" class="field textarea medium" rows="10" cols="50" placeholder="Message" required></textarea>
 						</li>
 						<li class="buttons">
 							<input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Send">
