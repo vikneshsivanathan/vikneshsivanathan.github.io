@@ -1,0 +1,328 @@
+
+/* basic html */
+
+html {
+	background: #fff;
+	text-align: center;
+}
+
+body {
+	font-family: "Geneva", "Tahoma", "Verdana", sans-serif;
+	line-height: 1.5;
+	color: #222;
+	margin: 0 auto;
+	max-width: 1280px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-box-shadow: 0 0 10px #aaa;
+	box-shadow: 0 0 10px #aaa;
+}
+
+h1, h2, h3 {
+	font-family: "Didot", "Didot LT STD", "Hoefler Text", "Garamond", "Times New Roman", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h2 + h3 {
+	margin-top: -15px;
+}
+
+p {
+	font-weight: 300;
+}
+
+/* header & footer */
+
+.header {
+	height: 720px;
+	position: relative;
+}
+
+.header ul {
+	padding: 0;
+	margin: 0;
+}
+
+.header li {
+	list-style: none;
+}
+
+.footer {
+	padding: 30px 0;
+	background: #fff;
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin: 0 0 0 -65px;
+	padding: 0;
+	z-index: 1;
+}
+
+.menu {
+	position: absolute;
+	width: 100%;
+	top: 60px;
+	left: 0;
+	z-index: 1;
+}
+
+.menu li {
+	margin-right: 70px;
+	display: inline-block;
+}
+
+.menu .w {
+	margin-right: 420px;
+}
+
+.menu .c {
+	margin-right: 0;
+}
+
+.menu .s a {
+	background: url(../img/menu_story.png) 0 0 no-repeat;
+	width: 68px;
+}
+
+.menu .w a {
+	background: url(../img/menu_wedding.png) 0 0 no-repeat;
+	width: 83px;
+}
+
+.menu .p a {
+	background: url(../img/menu_photo.png) 0 0 no-repeat;
+	width: 87px;
+}
+
+.menu .c a {
+	background: url(../img/menu_contact.png) 0 0 no-repeat;
+	width: 72px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	border-bottom: 1px solid transparent;
+	height: 20px;
+}
+
+.menu a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.hero ul {
+	width: 100%;
+}
+
+.hero li {
+	background-position: center top;
+	background-repeat: no-repeat;
+	display: block;
+	min-height: 720px;
+}
+
+.hero p {
+	background: url(../img/hero_text.png) center top no-repeat;
+	width: 1000px;
+	height: 66px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	margin-left: -500px;
+	text-indent: -9999px;
+}
+
+.hero .bx-wrapper {
+	position: relative;
+}
+
+.hero .bx-controls a {
+	position: absolute;
+	top: 45%;
+	display: block;
+	width: 36px;
+	height: 71px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+
+.hero .bx-controls a:hover {
+	opacity: .75;
+}
+
+.hero .bx-prev {
+	background: url(../img/paddle_prev.png) 0 0 no-repeat;
+	left: 50px;
+}
+
+.hero .bx-next {
+	background: url(../img/paddle_next.png) 0 0 no-repeat;
+	right: 50px;
+}
+
+/* main content */
+
+.main .section {
+	clear: both;
+	margin: 0 auto;
+	padding: 35px 0 70px;
+	background: #fff;
+}
+
+.main .section:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.main .container {
+	margin: 0 auto;
+}
+
+.main .wedding,
+.main .contact {
+	background: #ededed;
+}
+
+.story .container,
+.wedding .container,
+.contact .container {
+	width: 580px;
+}
+
+.wedding ul,
+.photo ul {
+	width: 1200px;
+	padding: 20px 0 0;
+	margin: 0 auto;
+}
+
+.wedding li {
+	list-style: none;
+	display: inline-block;
+	width: 33%;
+}
+
+.wedding li img {
+	border: 6px solid #fff;
+	box-shadow: 0 0 1px #ccc;
+}
+
+.photo li {
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 113px;
+}
+
+.photo li a:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	-moz-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
+	transition: background .3s linear;
+}
+
+.photo li a:hover:before {
+	background: none;
+}
+
+/* wufoo form */
+
+.wufoo {
+	text-align: left;
+	clear: both;
+}
+
+.wufoo .hide {
+	display: none;
+}
+
+.wufoo ul {
+	margin: 0;
+}
+
+.wufoo li {
+	list-style: none;
+	margin: 0 0 20px;
+}
+
+.wufoo label {
+	display: block;
+}
+
+.wufoo .buttons {
+	text-align: center;
+}
+
+.wufoo label {
+	display: none;
+}
+
+.placeholder-false label {
+	display: block;
+	margin-bottom: 6px;
+	text-transform: uppercase;
+}
+
+.wufoo input,
+.wufoo textarea {
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	background: #fff;
+	border: 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wufoo input[type=submit] {
+	width: auto;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #aaa;
+	color: #fff;
+	cursor: pointer;
+	-moz-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
+	transition: background .3s linear;
+}
+
+.wufoo input[type=submit]:hover {
+	background: #888;
+}
+
+.wufoo textarea {
+	height: 200px;
+}
+
+::-webkit-input-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+::-moz-placeholder {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
