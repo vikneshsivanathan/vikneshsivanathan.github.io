@@ -250,6 +250,7 @@ p {
 .wufoo {
 	text-align: left;
 	clear: both;
+	margin: 0;
 }
 
 .wufoo .hide {
@@ -271,6 +272,7 @@ p {
 
 .wufoo .buttons {
 	text-align: center;
+	margin: 0;
 }
 
 .wufoo label {
