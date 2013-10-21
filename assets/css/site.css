@@ -245,6 +245,12 @@ p {
 	background: none;
 }
 
+.note {
+	text-align: center;
+	text-transform: uppercase;
+	color: #aaa;
+}
+
 /* wufoo form */
 
 .wufoo {
@@ -255,12 +261,6 @@ p {
 
 .wufoo .hide {
 	display: none;
-}
-
-.wufoo .req {
-	text-align: center;
-	text-transform: uppercase;
-	color: #aaa;
 }
 
 .wufoo ul {
