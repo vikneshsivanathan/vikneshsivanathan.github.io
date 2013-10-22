@@ -11,7 +11,7 @@ body {
 	line-height: 1.5;
 	color: #222;
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: 1440px;
 	background: #fff;
 	-moz-box-shadow: 0 0 10px #aaa;
 	-webkit-box-shadow: 0 0 10px #aaa;
@@ -131,6 +131,7 @@ img {
 .hero li {
 	background-position: center top;
 	background-repeat: no-repeat;
+	background-size: 100% auto;
 	display: block;
 	min-height: 720px;
 }
@@ -316,10 +317,10 @@ img {
 	background: #aaa;
 	color: #fff;
 	cursor: pointer;
+	-webkit-appearance: none;
 	-moz-transition: background .3s linear;
 	-webkit-transition: background .3s linear;
 	transition: background .3s linear;
-	-webkit-appearance: none;
 }
 
 .wufoo input[type=submit]:hover {
