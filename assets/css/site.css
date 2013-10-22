@@ -12,7 +12,7 @@ body {
 	line-height: 1.5;
 	color: #222;
 	margin: 0 auto;
-	max-width: 1440px;
+	max-width: 1280px;
 	background: #fff;
 	-moz-box-shadow: 0 0 10px #aaa;
 	-webkit-box-shadow: 0 0 10px #aaa;
@@ -130,11 +130,11 @@ img {
 }
 
 .hero li {
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
 	display: block;
 	min-height: 720px;
+	background-color: #222;
+	background-position: center top;
+	background-repeat: no-repeat;
 }
 
 .hero p {
@@ -340,4 +340,20 @@ img {
 ::-moz-placeholder {
 	text-transform: uppercase;
 	letter-spacing: 1px;
+}
+
+/* media query */
+
+@media screen and (min-width: 1281px) {
+	
+	body {
+		max-width: 1440px;
+	}
+
+	.hero li {
+		-webkit-background-size: 100% auto;
+		-moz-background-size: 100% auto;
+		background-size: 100% auto;
+	}
+	
 }
