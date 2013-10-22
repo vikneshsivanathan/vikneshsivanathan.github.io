@@ -23,14 +23,21 @@ h1, h2, h3 {
 	font-family: "Didot", "Didot LT STD", "Hoefler Text", "Garamond", "Times New Roman", serif;
 	font-weight: normal;
 	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
 }
 
 h2 {
 	font-size: 32px;
 }
 
+h3 {
+	font-size: 18px;
+	color: #888;
+}
+
 h2 + h3 {
-	margin-top: -15px;
+	margin-top: -10px;
 }
 
 p {
@@ -261,7 +268,7 @@ img {
 .wufoo {
 	text-align: left;
 	clear: both;
-	margin: 0;
+	margin: -10px 0 0;
 }
 
 .wufoo .hide {
