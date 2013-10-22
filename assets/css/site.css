@@ -11,6 +11,7 @@ body {
 	line-height: 1.5;
 	color: #222;
 	margin: 0 auto;
+	min-width: 1024px;
 	max-width: 1440px;
 	background: #fff;
 	-moz-box-shadow: 0 0 10px #aaa;
