@@ -90,7 +90,7 @@ img {
 	display: inline-block;
 }
 
-.menu .w {
+.menu .s {
 	margin-right: 420px;
 }
 
@@ -98,14 +98,14 @@ img {
 	margin-right: 0;
 }
 
-.menu .s a {
-	background: url(../img/menu_story.png) 0 0 no-repeat;
-	width: 68px;
-}
-
 .menu .w a {
 	background: url(../img/menu_wedding.png) 0 0 no-repeat;
 	width: 83px;
+}
+
+.menu .s a {
+	background: url(../img/menu_celebrations.png) 0 0 no-repeat;
+	width: 113px;
 }
 
 .menu .p a {
