@@ -201,31 +201,31 @@ img {
 	margin: 0 auto;
 }
 
-.main .wedding,
+.main .celebrations,
 .main .contact {
 	background: #ededed;
 }
 
-.story .container,
 .wedding .container,
+.celebrations .container,
 .contact .container {
 	width: 580px;
 }
 
-.wedding ul,
+.celebrations ul,
 .photo ul {
 	width: 1200px;
 	padding: 20px 0 0;
 	margin: 0 auto;
 }
 
-.wedding li {
+.celebrations li {
 	list-style: none;
 	display: inline-block;
 	width: 33%;
 }
 
-.wedding li img {
+.celebrations li img {
 	border: 6px solid #fff;
 	box-shadow: 0 0 1px #ccc;
 }
