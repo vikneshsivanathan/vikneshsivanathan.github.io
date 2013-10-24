@@ -83,47 +83,53 @@ img {
 	top: 60px;
 	left: 0;
 	z-index: 1;
+	padding: 0;
+	margin: 0;
 }
 
 .menu li {
+	list-style: none;
 	display: block;
 	width: 25%;
 	float: left;
 	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 .menu .w a {
 	background: url(../img/menu_wedding.png) 0 0 no-repeat;
 	width: 83px;
+	right: -50px;
 }
 
 .menu .s a {
 	background: url(../img/menu_celebrations.png) 0 0 no-repeat;
 	width: 113px;
-	position: relative;
-	left: -100px;
+	left: -50px;
 }
 
 .menu .p a {
 	background: url(../img/menu_photo.png) 0 0 no-repeat;
 	width: 87px;
-	position: relative;
-	right: -100px;
+	right: -50px;
 }
 
 .menu .c a {
 	background: url(../img/menu_contact.png) 0 0 no-repeat;
 	width: 72px;
+	left: -50px;
 }
 
 .menu a {
+	position: relative;
+	display: block;
+	text-indent: -9999px;
 	text-decoration: none;
 	color: #fff;
-	display: block;
-	margin: 0 auto;
-	text-indent: -9999px;
 	border-bottom: 1px solid transparent;
 	height: 20px;
+	margin: 0 auto;
 }
 
 .menu a:hover {
