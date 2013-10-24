@@ -86,17 +86,10 @@ img {
 }
 
 .menu li {
-	margin: 0 30px;
-	display: inline-block;
-}
-
-.menu .s {
-	margin-right: 400px;
-}
-
-.menu .p {
-	position: relative;
-	left: -40px;
+	display: block;
+	width: 25%;
+	float: left;
+	text-align: center;
 }
 
 .menu .w a {
@@ -107,11 +100,15 @@ img {
 .menu .s a {
 	background: url(../img/menu_celebrations.png) 0 0 no-repeat;
 	width: 113px;
+	position: relative;
+	left: -100px;
 }
 
 .menu .p a {
 	background: url(../img/menu_photo.png) 0 0 no-repeat;
 	width: 87px;
+	position: relative;
+	right: -100px;
 }
 
 .menu .c a {
@@ -123,7 +120,7 @@ img {
 	text-decoration: none;
 	color: #fff;
 	display: block;
-	float: left;
+	margin: 0 auto;
 	text-indent: -9999px;
 	border-bottom: 1px solid transparent;
 	height: 20px;
