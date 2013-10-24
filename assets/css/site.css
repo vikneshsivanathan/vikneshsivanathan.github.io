@@ -72,7 +72,7 @@ img {
 	position: absolute;
 	top: 30px;
 	left: 50%;
-	margin: 0 0 0 -38px;
+	margin: 0 0 0 -59px;
 	padding: 0;
 	z-index: 1;
 }
@@ -86,16 +86,17 @@ img {
 }
 
 .menu li {
-	margin-right: 70px;
+	margin: 0 30px;
 	display: inline-block;
 }
 
 .menu .s {
-	margin-right: 420px;
+	margin-right: 400px;
 }
 
-.menu .c {
-	margin-right: 0;
+.menu .p {
+	position: relative;
+	left: -40px;
 }
 
 .menu .w a {
