@@ -138,6 +138,20 @@ img {
 	width: 72px;
 }
 
+.hero h1 {
+	background: url(../img/hero_text.png) center top no-repeat;
+	width: 1000px;
+	height: 66px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	margin-left: -500px;
+	text-indent: -9999px;
+}
+
 .hero ul {
 	width: 100%;
 }
@@ -148,17 +162,6 @@ img {
 	background-color: #222;
 	background-position: center top;
 	background-repeat: no-repeat;
-}
-
-.hero p {
-	background: url(../img/hero_text.png) center top no-repeat;
-	width: 1000px;
-	height: 66px;
-	position: absolute;
-	top: 70%;
-	left: 50%;
-	margin-left: -500px;
-	text-indent: -9999px;
 }
 
 .hero .bx-wrapper {
