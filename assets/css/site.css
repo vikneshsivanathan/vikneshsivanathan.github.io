@@ -68,72 +68,74 @@ img {
 	padding: 30px 0;
 }
 
-.logo {
-	position: absolute;
-	top: 30px;
-	left: 50%;
-	margin: 0 0 0 -59px;
-	padding: 0;
-	z-index: 1;
-}
-
 .menu {
 	position: absolute;
-	width: 100%;
 	top: 60px;
 	left: 0;
-	z-index: 1;
-	padding: 0;
-	margin: 0;
+	z-index: 2;
+	width: 100%;
+}
+
+.menu ul {
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
 }
 
 .menu li {
 	list-style: none;
-	display: block;
-	width: 25%;
 	float: left;
-	text-align: center;
-	padding: 0;
-	margin: 0;
+	width: 200px;
 }
 
-.menu .w a {
-	background: url(../img/menu_wedding.png) 0 0 no-repeat;
-	width: 83px;
-	right: -50px;
-}
-
-.menu .s a {
-	background: url(../img/menu_celebrations.png) 0 0 no-repeat;
-	width: 113px;
-	left: -50px;
-}
-
-.menu .p a {
-	background: url(../img/menu_photo.png) 0 0 no-repeat;
-	width: 87px;
-	right: -50px;
-}
-
-.menu .c a {
-	background: url(../img/menu_contact.png) 0 0 no-repeat;
-	width: 72px;
-	left: -50px;
-}
-
-.menu a {
-	position: relative;
+.menu li a,
+.menu li b {
 	display: block;
 	text-indent: -9999px;
 	text-decoration: none;
 	color: #fff;
 	border-bottom: 1px solid transparent;
-	height: 20px;
 	margin: 0 auto;
+}
+
+.menu li a {
+	height: 20px;
+}
+
+.menu li b {
+	position: relative;
+	top: -30px;
+	width: 118px;
+	height: 82px;
 }
 
 .menu a:hover {
 	border-bottom: 1px solid #fff;
+}
+
+.menu .w a {
+	background: url(../img/menu_wedding.png) 0 0 no-repeat;
+	width: 83px;
+}
+
+.menu .s a {
+	background: url(../img/menu_celebrations.png) 0 0 no-repeat;
+	width: 113px;
+}
+
+.menu .l b {
+	background: url(../img/logo.png) 0 0 no-repeat;
+	width: 118px;
+}
+
+.menu .p a {
+	background: url(../img/menu_photo.png) 0 0 no-repeat;
+	width: 87px;
+}
+
+.menu .c a {
+	background: url(../img/menu_contact.png) 0 0 no-repeat;
+	width: 72px;
 }
 
 .hero ul {
@@ -226,6 +228,7 @@ img {
 .celebrations li {
 	list-style: none;
 	display: inline-block;
+	float: left;
 	width: 33%;
 }
 
