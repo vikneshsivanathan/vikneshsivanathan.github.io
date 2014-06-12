@@ -273,6 +273,10 @@ img {
 	color: #aaa;
 }
 
+.main .nospace {
+	padding-top: 0;
+}
+
 /* wufoo form */
 
 .wufoo {
