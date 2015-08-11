@@ -77,14 +77,16 @@ img {
 }
 
 .menu ul {
+	font-size: 0;
 	width: 1000px;
 	margin: 0 auto;
 	display: block;
 }
 
 .menu li {
+	font-size: 16px;
 	list-style: none;
-	float: left;
+	display: inline-block;
 	width: 200px;
 }
 
@@ -129,8 +131,8 @@ img {
 }
 
 .menu .p a {
-	background: url(../img/menu_photo.png) 0 0 no-repeat;
-	width: 87px;
+	background: url(../img/menu_photographys.png) 0 0 no-repeat;
+	width: 93px;
 }
 
 .menu .c a {
@@ -194,62 +196,43 @@ img {
 
 /* main content */
 
-.main .section {
+.section {
 	clear: both;
 	margin: 0 auto;
 	padding: 35px 0 70px;
 }
 
-.main .section:after {
-	clear: both;
-	content: "";
-	display: table;
-}
-
-.main .container {
+.container {
 	margin: 0 auto;
 }
 
-.main .celebrations,
-.main .contact {
-	background: #ededed;
-}
-
-.wedding .container,
-.celebrations .container,
-.contact .container {
+.plain .container {
 	width: 580px;
 }
 
-.celebrations ul,
-.photo ul {
+.grey {
+	background: #ededed;
+}
+
+.gallery,
+.three {
+	font-size: 0;
 	width: 1200px;
 	padding: 20px 0 0;
 	margin: 0 auto;
 }
 
-.celebrations li {
-	list-style: none;
+.gallery li {
+	font-size: 16px;
 	display: inline-block;
-	float: left;
-	width: 33%;
-}
-
-.celebrations li img {
-	border: 6px solid #fff;
-	box-shadow: 0 0 1px #ccc;
-}
-
-.photo li {
 	position: relative;
 	overflow: hidden;
 	list-style: none;
-	float: left;
 	width: 200px;
 	height: 113px;
 }
 
-.photo li a:before {
+.gallery li a:before {
 	content: "";
 	display: block;
 	position: absolute;
@@ -263,8 +246,20 @@ img {
 	transition: background .3s linear;
 }
 
-.photo li a:hover:before {
+.gallery li a:hover:before {
 	background: none;
+}
+
+.three li {
+	font-size: 16px;
+	display: inline-block;
+	list-style: none;
+	width: 33%;
+}
+
+.three li img {
+	border: 6px solid #fff;
+	box-shadow: 0 0 1px #ccc;
 }
 
 .note {
@@ -273,7 +268,7 @@ img {
 	color: #aaa;
 }
 
-.main .nospace {
+.photo + .photo {
 	padding-top: 0;
 }
 
